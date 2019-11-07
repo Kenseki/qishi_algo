@@ -1,4 +1,7 @@
-# divide and conquer
+# divide and conquer (binary search)
+
+# Time: O(NlogN) (master theorem)
+# Space: O(logN)
 
 # Runtime: 156 ms, faster than 5.17% of Python3 online submissions for Maximum Subarray.
 # Memory Usage: 13.7 MB, less than 52.03% of Python3 online submissions for Maximum Subarray.
