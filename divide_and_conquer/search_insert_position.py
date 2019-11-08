@@ -1,12 +1,14 @@
+# Binary search
+
+# Time: O(logN)
+# Space: O(logN)
+
 # Runtime: 48 ms, faster than 99.57% of Python3 online submissions for Search Insert Position.
 # Memory Usage: 13.6 MB, less than 83.58% of Python3 online submissions for Search Insert Position.
 
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         def binarySearch(nums, target, start, end):
-            print(start)
-            print(end)
-            print(' ')
             
             mid = (start + end)//2
             if nums[mid] == target:
